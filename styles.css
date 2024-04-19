@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3F704D;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%; /* Adjusted for responsiveness */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 6px;
+}
+
+code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+}
+img {
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+}
+/* Footer Styles */
+footer {
+    background-color: #32612D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
